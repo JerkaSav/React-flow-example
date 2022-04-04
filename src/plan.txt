@@ -1,0 +1,27 @@
+React flow thoughts:
+  You can style it as you want.
+  It needs more logic to create nodes.
+
+
+
+
+Needs sovling:
+  pass data from one node to another.
+    Needs logic on the connectors to validate the connections
+
+
+  creating new nodes
+    Make a system where we can create and add nodes easily
+
+  Add nodes
+    Needs a unique key
+
+
+Types:
+  Connectors:
+    String, Int, Boolean,
+
+
+
+
+

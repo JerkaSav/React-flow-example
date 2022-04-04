@@ -1,0 +1,52 @@
+.basic {
+  height: 50px;
+  border: 1px solid black;
+  padding: 5px;
+  border-radius: 5px;
+  background: white;
+}
+
+.basic:active {
+  border: 1px solid green;
+}
+.basic:focus {
+  border: 20px solid black;
+}
+.basic.bigger {
+  height: 100%;
+  padding: 10px 0;
+  width: calc(100% + 40px);
+  display: flex;
+  gap: 10px 0;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.green {
+  background: rgba(0, 128, 0, 0.384);
+}
+.red {
+  background: rgba(255, 0, 0, 0.596);
+}
+.dropdown-get-value {
+  z-index: 200;
+}
+
+.bigger-handle {
+  border: none;
+  width: 10px;
+  height: 10px;
+}
+
+.handle-top,
+.handle-bottom {
+  left: calc(50% + 10px);
+}
+
+.validationflow .react-flow__handle-connecting {
+  background: #ff6060;
+}
+
+.validationflow .react-flow__handle-valid {
+  background: #55dd99;
+}
